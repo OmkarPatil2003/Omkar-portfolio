@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Omkar Patil — Portfolio Website
 
-## Getting Started
+A modern, responsive **personal portfolio website** built with **Next.js 14**, showcasing my projects, skills, experience, and services as a **Full Stack Software Developer**.
 
-First, run the development server:
+🔗 **Live Demo:** [omkar-portfolio.vercel.app](https://omkar-portfolio.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- 🎨 **Sleek Dark Theme** — Modern UI with smooth animations using Framer Motion
+- 📱 **Fully Responsive** — Optimized for all devices (mobile, tablet, desktop)
+- 💼 **Services Section** — Highlights key offerings like Full Stack Dev, API Development, Database Design & DevOps
+- 📄 **Resume Section** — Interactive tabs for Experience, Education, Skills & About Me
+- 🛠️ **Projects Showcase** — Swiper-based project slider with live demo & GitHub links
+- 📬 **Contact Form** — Functional email form powered by EmailJS
+- ⚡ **Fast Performance** — Built with Next.js for server-side rendering & optimized loading
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Next.js 14, React 18 |
+| **Styling** | Tailwind CSS, Framer Motion |
+| **UI Components** | Radix UI (Dialog, Tabs, Select, Tooltip, Scroll Area) |
+| **Icons** | React Icons (Font Awesome, Simple Icons) |
+| **Email** | EmailJS |
+| **Slider** | Swiper.js |
+| **Deployment** | Vercel |
+
+---
+
+## 📂 Project Structure
+
+```
+📦 Omkar-portfolio
+├── 📁 app
+│   ├── 📁 contact        # Contact page with email form
+│   ├── 📁 resume          # Resume with tabs (Experience, Education, Skills, About)
+│   ├── 📁 services        # Services offered
+│   ├── 📁 work            # Projects showcase with slider
+│   ├── layout.js          # Root layout
+│   ├── page.jsx           # Home page
+│   └── globals.css        # Global styles
+├── 📁 components          # Reusable UI components
+├── 📁 lib                 # Utility functions
+├── 📁 public              # Static assets (images, resume PDF)
+├── next.config.mjs        # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+└── package.json           # Dependencies & scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Prerequisites
+- **Node.js** (v18 or above)
+- **npm** or **yarn**
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/OmkarPatil2003/Omkar-portfolio.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Navigate to the project
+cd Omkar-portfolio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Start development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 💼 Projects Featured
+
+| # | Project | Tech Stack |
+|---|---------|------------|
+| 01 | 🚗 **Vehicle Configurator** — B2B vehicle leasing portal with dynamic pricing | React, Spring Boot, .NET, MySQL, Docker |
+| 02 | 🏥 **Doctor Appointment System** — Full-stack appointment booking platform | React, Node.js, Express, MongoDB |
+| 03 | 🐾 **PetPal** — Pet adoption platform with location-based search | React, Node.js, MongoDB, Google Maps API |
+| 04 | 🌤️ **Weather App** — Real-time weather updates for any city | React, JavaScript, Weather API |
+
+---
+
+## 📫 Contact
+
+| Platform | Link |
+|----------|------|
+| 📧 **Email** | [omkarpatil192003@gmail.com](mailto:omkarpatil192003@gmail.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/omkarpatil2003](https://linkedin.com/in/omkarpatil2003) |
+| 🐙 **GitHub** | [github.com/OmkarPatil2003](https://github.com/OmkarPatil2003) |
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+> ⭐ **If you like this portfolio, give it a star on GitHub!**
