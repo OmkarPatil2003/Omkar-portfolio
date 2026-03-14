@@ -2,7 +2,7 @@
 
 A modern, responsive **personal portfolio website** built with **Next.js 14**, showcasing my projects, skills, experience, and services as a **Full Stack Software Developer**.
 
-🔗 **Live Demo:** [omkar-portfolio.vercel.app](https://omkar-portfolio.vercel.app)
+🔗 **Live Demo:** [omkarpatil2003.vercel.app](https://omkarpatil2003.vercel.app/)
 
 ---
 
