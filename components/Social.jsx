@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/OmkarPatil2003" },
   { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/omkar-patil-823686286/" },
-  //{ icon: <LeetCodeIcon />, path: "https://leetcode.com/SARVESH-31/" }, // Replace with your LeetCode profile URL
+  //{ icon: <LeetCodeIcon />, path: "https://leetcode.com/OmkarPatil2003/" }, // Replace with your LeetCode profile URL
   //{ icon: <FaYoutube />, path: "" },
   //{ icon: <FaTwitter />, path: "" },
 ];
